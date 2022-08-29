@@ -12,7 +12,7 @@ Desafio proposto pelo processo seletivo Itaú. Trata-se de um REST API para vali
 
 ## A solução
 
-Trata-se de uma aplicação Java com Framework Spring Boot que disponibiliza um endpoint para a verificação da senha ("/password/isValid").
+Foi desenvolvida uma aplicação Java com Framework Spring Boot que disponibiliza um endpoint para a verificação da senha ("/password/isValid").
 A aplicação está dividida em 2 partes: Controller e Service. No Controller (com.itidigital.backendChallenge.controller.PasswordController) é recebida a requisição que será tratada pela camada de serviço (composta pelas classes do pacote com.itidigital.backendChallenge.service).
 
 Na camada service, temos a classe principal responsável por chamar os validadores (com.itidigital.backendChallenge.service.PasswordService) e os validadores específicos de cada uma das regras impostas (com.itidigital.backendChallenge.service.validators).
