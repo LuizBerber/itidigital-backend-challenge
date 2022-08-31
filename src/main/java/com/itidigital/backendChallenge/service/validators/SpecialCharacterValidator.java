@@ -9,9 +9,4 @@ public class SpecialCharacterValidator implements PasswordValidationStep {
 		return StringUtils.containsAny(password, "!@#$%^&*()-+");
 	}
 
-	@Override
-	public String whatsMyName() {
-		return new String("SpecialCharacterValidator");
-	}
-
 }

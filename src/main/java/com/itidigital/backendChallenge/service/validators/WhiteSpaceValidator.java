@@ -9,9 +9,4 @@ public class WhiteSpaceValidator implements PasswordValidationStep {
 		return !StringUtils.containsWhitespace(password);
 	}
 
-	@Override
-	public String whatsMyName() {
-		return new String("WhiteSpaceValidator");
-	}
-
 }

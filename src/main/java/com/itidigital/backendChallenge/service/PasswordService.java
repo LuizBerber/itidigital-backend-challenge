@@ -20,7 +20,6 @@ public class PasswordService {
 		
 		ArrayList<PasswordValidationStep> validationSteps = new ArrayList<>();
 		
-		
 		validationSteps.add(new MinimumNumberOfCharactersValidator());
 		validationSteps.add(new NumericCharacterValidator());
 		validationSteps.add(new RepeatedCharacterValidator());
@@ -30,7 +29,6 @@ public class PasswordService {
 		validationSteps.add(new UppercaseValidator());
 		
 		for(PasswordValidationStep step : validationSteps) {
-			System.out.println(step.whatsMyName());
 			if(!step.isValid(password)) return false;
 		}
 		

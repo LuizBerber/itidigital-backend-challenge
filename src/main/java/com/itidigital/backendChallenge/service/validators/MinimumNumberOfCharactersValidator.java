@@ -7,9 +7,4 @@ public class MinimumNumberOfCharactersValidator implements PasswordValidationSte
 		return password.length() >= 9;
 	}
 
-	@Override
-	public String whatsMyName() {
-		return new String("MinimumNumberOfCharactersValidator");
-	}
-
 }

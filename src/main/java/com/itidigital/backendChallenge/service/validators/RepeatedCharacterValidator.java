@@ -13,9 +13,4 @@ public class RepeatedCharacterValidator implements PasswordValidationStep {
 		return true;
 	}
 
-	@Override
-	public String whatsMyName() {
-		return new String("RepeatedCharacterValidator");
-	}
-
 }

@@ -12,9 +12,4 @@ public class NumericCharacterValidator implements PasswordValidationStep {
 		return false;
 	}
 
-	@Override
-	public String whatsMyName() {
-		return new String("NumericCharacterValidator");
-	}
-
 }

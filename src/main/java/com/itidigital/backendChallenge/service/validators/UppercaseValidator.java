@@ -11,10 +11,5 @@ public class UppercaseValidator implements PasswordValidationStep {
 		
 		return false;
 	}
-
-	@Override
-	public String whatsMyName() {
-		return new String("UppercaseValidator");
-	}
-
+	
 }
