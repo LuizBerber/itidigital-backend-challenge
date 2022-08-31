@@ -1,4 +1,4 @@
-package com.itidigital.backendChallenge;
+package com.itidigital.backendChallenge.model;
 
 import java.io.Serializable;
 
